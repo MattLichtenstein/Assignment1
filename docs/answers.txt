@@ -1,4 +1,4 @@
-5a.
+5a)
 	Counting objects: 7, done.
 	Delta compression using up to 4 threads.
 	Compressing objects: 100% (5/5), done.
@@ -8,26 +8,34 @@
 	To https://github.com/MattLichtenstein/Assignment1.git
 	   fbdbe93..e93a0e9  master -> master
 
-5b.
+5b)
 	Commits: 9
 	Command: git rev-list --all --count
 
-5c. 
+5c)
 	.gitignore last modified: Wed Sep 27 16:31:42 2017
 	Command: git log .gitignore
 
-5d. 
+5d)
 	cb30d72a3d94c108f393c163a35c1cc9bf18ffca
 	36a8e55e4bbdd171ab57d979e1a802d740f2db9b
 
-5e. 
+5e)
 	Advantages of branching: 
 		- Allows you to create a reliable, separate environment in the repository utilizing the existing codebase. Good for things like testing.
 		- Branching is good for organization when several people are working on the same project, and maybe adding different implementations of a feature, easy to compare side-by-side which feature you like the best without commiting over somebodys code and tracking revisions.
 
-5f. 
+5f)
 	The difference between git status and git log are that git status shows you things like untracked files in your working directory and updated, but uncommited files. Git log shows a list of commits in chronological order of when they were commited, providing information such as commit ID, author, and a commit message
 
-5g. 
-	
+5g)
+	git log Weapon.h
+
+5h)
+	git log --all --grep='file'
+
+5i)
+	i) In object-oriented programming, inheritance is when all objects of a class are derived from another class and acquire their properties such as methods and member data
+	ii) Polymorphism is the use of abstract programming where each object has its own implementation, meaning a variable can technically be of one or more types. This works when a dervied class references a base or parent class and can potentially be referring to different things
+	iii) Encapsulation is combining functions and member data into something like a class where you cannot manipulate the data directly, but mainly through the functions of the class. It can be thought of as a way to 'hide' data
 
