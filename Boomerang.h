@@ -17,7 +17,7 @@
 class Boomerang : public Weapon {
 public:
 
-    Boomerang() : Weapon("Boomerang", (rand() % 2 + 1) * 30) {
+    Boomerang() : Weapon("Boomerang", (rand() % 2 + 1) * 30) { //Random number between 1 and 2. 2 means boomerang came back around and hit again ignoring armor
     }
     virtual ~Boomerang() {}; 
     virtual double hit(double armor);
