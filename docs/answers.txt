@@ -39,3 +39,4 @@
 	ii) Polymorphism is the use of abstract programming where each object has its own implementation, meaning a variable can technically be of one or more types. This works when a dervied class references a base or parent class and can potentially be referring to different things
 	iii) Encapsulation is combining functions and member data into something like a class where you cannot manipulate the data directly, but mainly through the functions of the class. It can be thought of as a way to 'hide' data
 
+7) This RoleGame prototype is using encapsulation because it contains classes that are their to combine data with functions. This game is also using polymorphism because their is abstraction with weapons in that a weapon can have multiple different forms or meanings.
