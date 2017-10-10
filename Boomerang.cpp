@@ -13,6 +13,9 @@ double Boomerang::hit(double armor) {
     if(hitPoints == 30){	//if the boomerang does not come back around, just 30 hitpoints minus armor
     	damage = damage - armor;
     }
+    else if(hitPoints == 60){   //if the boomerang does come back around, ignore armor on the second hit, but not for the first hit
+    	damage = damage - armor;
+    }
     
     if (damage < 0) {
         return 0;
